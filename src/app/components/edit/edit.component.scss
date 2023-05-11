@@ -1,0 +1,15 @@
+.edit-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 25px;
+	height: 25px;
+	background-color: #005a0c;
+	border-radius: 30%;
+	margin: 10px;
+	cursor: pointer;
+}
+
+textarea {
+	height: 100% !important;
+}

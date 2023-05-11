@@ -1,0 +1,206 @@
+﻿Diagnose log at 2023-04-25T03:05:43Z
+
+Executable: C:\Program Files\Git\mingw64\bin\git-credential-manager-core.exe
+Version: 2.0.785+6074e4e3d3
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 18363)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\Alfre Do
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=WIN10-FENIX
+SHELL=C:\Program Files\Git\usr\bin\bash.exe
+MSYSTEM=MINGW64
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+ProgramFiles(x86)=C:\Program Files (x86)
+CONFIG_SITE=C:/Program Files/Git/etc/config.site
+LC_CTYPE=es_ES.UTF-8
+USERDOMAIN=WIN10-FENIX
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+ORIGINAL_TEMP=C:/Users/ALFRED~1/AppData/Local/Temp
+MINGW_PREFIX=C:/Program Files/Git/mingw64
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+TEMP=C:\Users\ALFRED~1\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\Alfre Do\AppData\Local
+MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+TERM=xterm
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 15 Stepping 11, GenuineIntel
+MSYSTEM_CARCH=x86_64
+PROGRAMFILES=C:\Program Files (x86)
+ProgramData=C:\ProgramData
+TERM_PROGRAM_VERSION=3.6.1
+ORIGINAL_TMP=C:/Users/ALFRED~1/AppData/Local/Temp
+PROCESSOR_REVISION=0f0b
+SYSTEMROOT=C:\Windows
+TERM_PROGRAM=mintty
+PROCESSOR_LEVEL=6
+NUMBER_OF_PROCESSORS=2
+SSH_ASKPASS=C:/Program Files/Git/mingw64/bin/git-askpass.exe
+SHLVL=1
+APPDATA=C:\Users\Alfre Do\AppData\Roaming
+SYSTEMDRIVE=C:
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+HOSTNAME=WIN10-FENIX
+PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+MSYSTEM_CHOST=x86_64-w64-mingw32
+WINDIR=C:\Windows
+PLINK_PROTOCOL=ssh
+INFOPATH=C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+MSYS=enable_pcon
+PATH=C:/Program Files/Git/mingw64/libexec/git-core;C:\Users\Alfre Do\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Alfre Do\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Windows\twain_32\ebscan;C:\Windows\twain_64\ebscan;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Alfre Do\AppData\Local\Microsoft\WindowsApps;C:\Users\Alfre Do\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Alfre Do\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+MINGW_CHOST=x86_64-w64-mingw32
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+TMPDIR=C:\Users\ALFRED~1\AppData\Local\Temp
+TMP=C:\Users\ALFRED~1\AppData\Local\Temp
+ESET_OPTIONS=                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+HOME=C:\Users\Alfre Do
+COMSPEC=C:\Windows\system32\cmd.exe
+LOGONSERVER=\\WIN10-FENIX
+USERPROFILE=C:\Users\Alfre Do
+FPS_BROWSER_USER_PROFILE_STRING=Default
+DISPLAY=needs-to-be-defined
+COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files
+USERDOMAIN_ROAMINGPROFILE=WIN10-FENIX
+CommonProgramW6432=C:\Program Files\Common Files
+HOMEDRIVE=C:
+MSYSTEM_PREFIX=C:/Program Files/Git/mingw64
+OLDPWD=C:/Users/Alfre Do/Desktop/Cursos/ARG Programa - Yo Programo/Mod 3/ProyPortfolioAngular
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+SESSIONNAME=Console
+PWD=C:/Users/Alfre Do/Desktop/Cursos/ARG Programa - Yo Programo/Mod 3/ProyPortfolioAngular/mi-portfolio-ang
+EXEPATH=C:\Program Files\Git
+USERNAME=Alfre Do
+PROCESSOR_ARCHITEW6432=AMD64
+ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Alfre Do\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Windows\twain_32\ebscan;C:\Windows\twain_64\ebscan;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Alfre Do\AppData\Local\Microsoft\WindowsApps;C:\Users\Alfre Do\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Alfre Do\AppData\Roaming\npm
+PROCESSOR_ARCHITECTURE=x86
+PS1=\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ 
+OS=Windows_NT
+ProgramW6432=C:\Program Files
+_=C:/Program Files/Git/mingw64/bin/git
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Alfre Do\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Alfre Do\AppData\Local\Temp\15924f88a8bf445d18d6ec14'... OK
+Reading from temporary file 'C:\Users\Alfre Do\AppData\Local\Temp\15924f88a8bf445d18d6ec14'... OK
+Deleting temporary file 'C:\Users\Alfre Do\AppData\Local\Temp\15924f88a8bf445d18d6ec14'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Alfre Do
+UserDataDirectoryPath: C:\Users\Alfre Do\.gcm
+GetCurrentDirectory(): C:\Users\Alfre Do\Desktop\Cursos\ARG Programa - Yo Programo\Mod 3\ProyPortfolioAngular\mi-portfolio-ang
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: False
+Exception:
+System.Net.Http.HttpRequestException: Error al enviar la solicitud. ---> System.Net.WebException: No se puede resolver el nombre remoto: 'example.com'
+   en System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   en System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   en GitCredentialManager.Diagnostics.NetworkingDiagnostic.<RunTestAsync>d__5.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   en GitCredentialManager.Diagnostics.NetworkingDiagnostic.<RunInternalAsync>d__4.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   en System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   en GitCredentialManager.Diagnostics.Diagnostic.<RunAsync>d__5.MoveNext()
+Log:
+Checking basic networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.38.1.windows.1'
+Locating current repository... OK
+Git repository at 'C:/Users/Alfre Do/Desktop/Cursos/ARG Programa - Yo Programo/Mod 3/ProyPortfolioAngular/mi-portfolio-ang/.git'
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager-core
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/Alfre Do/.gitconfig	user.name=Alfredo
+file:C:/Users/Alfre Do/.gitconfig	user.email=alfre-do@hotmail.com.ar
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker not supported.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\Alfre Do\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\Alfre Do\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
