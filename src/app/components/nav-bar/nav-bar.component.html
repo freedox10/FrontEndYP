@@ -40,7 +40,14 @@
 				</svg>
 			</a>
   		</div>
+  		
+  		<!-- metodo de prueba viejo
   		<button *ngIf="loginShow" type="button" class="btn btn-outline-success fw-bold">Acceso</button>
   		<button *ngIf="!loginShow" type="button" class="btn btn-outline-primary fw-bold">Salir</button>
+  		-->
+  		
+  		<button *ngIf="loginShow" type="button" class="btn btn-outline-success fw-bold" (click)="login()">Acceso</button>
+  		<button *ngIf="!loginShow" type="button" class="btn btn-outline-primary fw-bold" (click)="home()">Salir</button>
+
 	</div>
 </nav>
