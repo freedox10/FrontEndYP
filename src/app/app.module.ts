@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routing } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -11,7 +11,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { WorkComponent } from './components/work/work.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService } from './services/in-memory-data.service';
+//import { InMemoryDataService } from './services/in-memory-data.service';
 import { DeleteComponent } from './components/delete/delete.component';
 import { EditComponent } from './components/edit/edit.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -23,6 +23,10 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import { CookieService } from "ngx-cookie-service";
+import { RegisterComponent } from './components/register/register.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,10 @@ import { LoginComponent } from './components/login/login.component';
     ProyectComponent,
     FooterComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent,
+    ExperienciaComponent,
+    NewExperienciaComponent
   ],
   imports: [
     BrowserModule,
@@ -48,13 +55,14 @@ import { LoginComponent } from './components/login/login.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, { dataEncapsulation: false }
-    ),
+    //HttpClientInMemoryWebApiModule.forRoot(
+    //  InMemoryDataService, { dataEncapsulation: false }
+    //),
     NgbModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    routing
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

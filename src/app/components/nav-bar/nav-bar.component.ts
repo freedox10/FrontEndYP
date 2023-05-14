@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav-bar.component.scss']
 })
 export class NavBarComponent implements OnInit{
-  loginShow: boolean = true;
+  loginShow: boolean = false;
 
   constructor(private router:Router) {
   }
@@ -19,7 +19,7 @@ export class NavBarComponent implements OnInit{
     this.router.navigate(['/login'])
   }
 
-  home(){
+  onLogOut(){
     this.router.navigate(['/'])
   }
 }

@@ -1,12 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
 body {
-	background-color: #ccc !important;
+	background-color: #A3BBC3 !important;
+	font-family: 'Ubuntu', sans-serif;
 }
-/* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
-
-/* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
-
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';

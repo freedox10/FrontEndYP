@@ -1,4 +1,29 @@
-<nav class="navbar-container row d-flex align-items-center">
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/logoAP.png" id="logoAP" >
+        </div>
+        <div class="yp">
+            <a href="https://argentinaprograma.inti.gob.ar/" target="_blank" style="text-decoration: none">
+                <h3 >#YoProgramo</h3>
+            </a>
+        </div>
+        <div class="redes">
+            <a href="www.linkedin.com"><img src="../../../assets/linkedin-100.png" id="linkedin"></a>
+            <a href="www.twitter.com"><img src="../../../assets/twitter-100.png" id="twitter"></a>
+            <a href="www.instagram.com"><img src="../../../assets/instagram-100.png" id="instagram"></a>
+            <a href="www.github.com"><img src="../../../assets/github-100.png" id="github"></a>
+            <a href="www.facebook.com"><img src="../../../assets/facebook-100.png" id="facebook"></a>
+            <button type="button" class="btn btn-outline-secondary" (click)="login()" *ngIf="!loginShow">INGRESAR</button>
+            <button type="button" class="btn btn-outline-secondary" (click)="onLogOut()" *ngIf="loginShow">SALIR</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--<nav class="navbar-container row d-flex align-items-center">
 	<div class="navbar-left col d-flex justify-content-around">
   		<img src="../../../assets/img/disenio17.png" width="250">
   		<div class="text-logo text-light">
@@ -40,14 +65,15 @@
 				</svg>
 			</a>
   		</div>
-  		
+  		-->
   		<!-- metodo de prueba viejo
   		<button *ngIf="loginShow" type="button" class="btn btn-outline-success fw-bold">Acceso</button>
   		<button *ngIf="!loginShow" type="button" class="btn btn-outline-primary fw-bold">Salir</button>
   		-->
-  		
+  		<!--
   		<button *ngIf="loginShow" type="button" class="btn btn-outline-success fw-bold" (click)="login()">Acceso</button>
   		<button *ngIf="!loginShow" type="button" class="btn btn-outline-primary fw-bold" (click)="home()">Salir</button>
 
 	</div>
 </nav>
+-->
