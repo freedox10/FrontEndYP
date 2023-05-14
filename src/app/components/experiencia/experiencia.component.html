@@ -1,6 +1,8 @@
 <div class="row">
-    <h1>Experiencia laboral</h1>
-    <div class="col-lg-2">
+    <h1>Experiencia laboral</h1>    
+    <div class="col-lg-3 d-flex justify-content-start">
+        <button type="button" class="btn btn-outline-success" (click)="in()" *ngIf="!isLogged">LogIn</button>
+        <button type="button" class="btn btn-outline-danger" (click)="out()" *ngIf="isLogged">LogOut</button>
         <button type="button" class="btn btn-outline-dark" routerLink="/nuevaexp" *ngIf="isLogged">
             Nueva Experiencia
         </button>
@@ -16,16 +18,16 @@
                     </td>
                     <td>{{Experiencia.descripcionE}}</td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-light" routerLink="/editexp/{{Experiencia.id}}">
-                            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                        <button class="btn btn-outline-primary" routerLink="/editexp/{{Experiencia.id}}">
+                            <i class="bi bi-pencil"></i> EDITAR</button>
                     </td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-danger" (click)="delete(Experiencia.id)">
-                            <i class="bi bi-trash-fill"></i> BORRAR</button>
+                        <button class="btn btn-outline-danger" (click)="delete(Experiencia.id)">
+                            <i class="bi bi-trash"></i> BORRAR</button>
                     </td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-</div> 
+</div>

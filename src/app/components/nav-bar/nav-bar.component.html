@@ -3,10 +3,12 @@
         <div class="logo">
             <img src="../../../assets/logoAP.png" id="logoAP" >
         </div>
-        <div class="yp">
+        <div class="yp d-flex justify-content-center">
             <a href="https://argentinaprograma.inti.gob.ar/" target="_blank" style="text-decoration: none">
                 <h3 >#YoProgramo</h3>
             </a>
+            <button type="button" class="btn btn-outline-success" (click)="in()" *ngIf="!isLogged">LogIn</button>
+            <button type="button" class="btn btn-outline-danger" (click)="out()" *ngIf="isLogged">LogOut</button>
         </div>
         <div class="redes">
             <a href="www.linkedin.com"><img src="../../../assets/linkedin-100.png" id="linkedin"></a>
@@ -14,8 +16,8 @@
             <a href="www.instagram.com"><img src="../../../assets/instagram-100.png" id="instagram"></a>
             <a href="www.github.com"><img src="../../../assets/github-100.png" id="github"></a>
             <a href="www.facebook.com"><img src="../../../assets/facebook-100.png" id="facebook"></a>
-            <button type="button" class="btn btn-outline-secondary" (click)="login()" *ngIf="!loginShow">INGRESAR</button>
-            <button type="button" class="btn btn-outline-secondary" (click)="onLogOut()" *ngIf="loginShow">SALIR</button>
+            <button type="button" class="btn btn-outline-secondary" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
+            <button type="button" class="btn btn-outline-secondary" (click)="onLogOut()" *ngIf="isLogged">SALIR</button>
         </div>
     </div>
 </div>

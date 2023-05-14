@@ -7,7 +7,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AboutComponent } from './components/about/about.component';
-import { ExperienceComponent } from './components/experience/experience.component';
+//import { ExperienceComponent } from './components/experience/experience.component';
 import { WorkComponent } from './components/work/work.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
@@ -27,6 +27,7 @@ import { CookieService } from "ngx-cookie-service";
 import { RegisterComponent } from './components/register/register.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,7 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
     HeaderComponent,
     BannerComponent,
     AboutComponent,
-    ExperienceComponent,
+    //ExperienceComponent,
     WorkComponent,
     DeleteComponent,
     EditComponent,
@@ -47,7 +48,8 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
     LoginComponent,
     RegisterComponent,
     ExperienciaComponent,
-    NewExperienciaComponent
+    NewExperienciaComponent,
+    EditExperienciaComponent,    
   ],
   imports: [
     BrowserModule,

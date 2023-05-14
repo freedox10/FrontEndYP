@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Experiencia } from 'src/app/model/experiencia';
-import { SExperienciaService } from 'src/app/service/s-experiencia.service';
+import { Experiencia } from 'src/app/models/experiencia';
+import { SExperienciaService } from 'src/app/services/s-experiencia.service';
 
 @Component({
   selector: 'app-new-experiencia',
   templateUrl: './new-experiencia.component.html',
-  styleUrls: ['./new-experiencia.component.css']
+  styleUrls: ['./new-experiencia.component.scss']
 })
 export class NewExperienciaComponent implements OnInit {
   nombreE: string = '';
