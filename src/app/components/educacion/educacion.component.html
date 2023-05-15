@@ -1,10 +1,10 @@
 <div class="row">
-    <h1>Experiencia laboral</h1>    
+    <h1>Educación</h1>
     <div class="col-lg-3 d-flex justify-content-start">
-        <button type="button" class="btn btn-outline-success" (click)="in()" *ngIf="!isLogged">LogIn</button>
+    	<button type="button" class="btn btn-outline-success" (click)="in()" *ngIf="!isLogged">LogIn</button>
         <button type="button" class="btn btn-outline-danger" (click)="out()" *ngIf="isLogged">LogOut</button>
-        <button type="button" class="btn btn-outline-dark" routerLink="/nuevaexp" *ngIf="isLogged">
-            Agregar Experiencia
+        <button type="button" class="btn btn-outline-dark" routerLink="/nuevaedu" *ngIf="isLogged">
+            Agregar Educación
         </button>
     </div>
 
@@ -12,17 +12,17 @@
     <div class="col-lg-11">
         <table class="table">
             <tbody>
-                <tr *ngFor="let Experiencia of expe">
+                <tr *ngFor="let Educacion of educacion">
                     <td>
-                        <h2>{{Experiencia.nombreE}}</h2>
+                        <h2>{{Educacion.nombreE}}</h2>
                     </td>
-                    <td>{{Experiencia.descripcionE}}</td>
+                    <td>{{Educacion.descripcionE}}</td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-outline-primary" routerLink="/editexp/{{Experiencia.id}}">
+                        <button class="btn btn-outline-primary" routerLink="/editedu/{{Educacion.id}}">
                             <i class="bi bi-pencil"></i> EDITAR</button>
                     </td>
                     <td *ngIf="isLogged">
-                        <button class="btn btn-outline-danger" (click)="delete(Experiencia.id)">
+                        <button class="btn btn-outline-danger" (click)="delete(Educacion.id)">
                             <i class="bi bi-trash"></i> BORRAR</button>
                     </td>
                 </tr>
@@ -31,3 +31,4 @@
     </div>
 
 </div>
+

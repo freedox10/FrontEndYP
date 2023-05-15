@@ -7,7 +7,6 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AboutComponent } from './components/about/about.component';
-//import { ExperienceComponent } from './components/experience/experience.component';
 import { WorkComponent } from './components/work/work.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
@@ -16,7 +15,6 @@ import { DeleteComponent } from './components/delete/delete.component';
 import { EditComponent } from './components/edit/edit.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { EducationComponent } from './components/education/education.component';
 import { SkillComponent } from './components/skill/skill.component';
 import { ProyectComponent } from './components/proyect/proyect.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -28,6 +26,9 @@ import { RegisterComponent } from './components/register/register.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { NeweducacionComponent } from './components/educacion/neweducacion.component';
+import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 
 @NgModule({
   declarations: [
@@ -36,11 +37,9 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
     HeaderComponent,
     BannerComponent,
     AboutComponent,
-    //ExperienceComponent,
     WorkComponent,
     DeleteComponent,
     EditComponent,
-    EducationComponent,
     SkillComponent,
     ProyectComponent,
     FooterComponent,
@@ -49,7 +48,10 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
     RegisterComponent,
     ExperienciaComponent,
     NewExperienciaComponent,
-    EditExperienciaComponent,    
+    EditExperienciaComponent,
+    EducacionComponent,
+    NeweducacionComponent,
+    EditeducacionComponent,    
   ],
   imports: [
     BrowserModule,
