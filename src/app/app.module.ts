@@ -7,10 +7,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AboutComponent } from './components/about/about.component';
-import { WorkComponent } from './components/work/work.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-//import { InMemoryDataService } from './services/in-memory-data.service';
 import { DeleteComponent } from './components/delete/delete.component';
 import { EditComponent } from './components/edit/edit.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -37,7 +35,6 @@ import { EditeducacionComponent } from './components/educacion/editeducacion.com
     HeaderComponent,
     BannerComponent,
     AboutComponent,
-    WorkComponent,
     DeleteComponent,
     EditComponent,
     SkillComponent,
@@ -59,9 +56,6 @@ import { EditeducacionComponent } from './components/educacion/editeducacion.com
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    //HttpClientInMemoryWebApiModule.forRoot(
-    //  InMemoryDataService, { dataEncapsulation: false }
-    //),
     NgbModule,
     NgCircleProgressModule.forRoot({}),
     routing

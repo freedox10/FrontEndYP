@@ -9,15 +9,11 @@ import { Educacion } from '../models/educacion';
 })
 export class EducacionService {
 
-URL = 'http://localhost:8080/educ/';
+  URL = 'https://backendaaf.onrender.com/educ/';
 
-/*
-<<<<<<< HEAD
-  URL = 'https://backend-mgb.herokuapp.com/educacion/';
-=======
-  URL = environment.URL + 'educacion/';
->>>>>>> dbccedd5c18384aa757cbb7ab7d9f7f3bc0e7672
-*/
+  //URL = 'http://localhost:8080/educ/';
+
+
   constructor(private httpClient : HttpClient) { }
 
   public lista(): Observable<Educacion[]>{
