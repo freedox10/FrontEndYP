@@ -10,7 +10,7 @@ import { PersonaService } from 'src/app/services/persona.service';
 export class AboutComponent implements OnInit {
   persona: persona = new persona("","","");
 
-  face: string = '../../../assets/img/foto01.jpg';
+  face: string = '../../../assets/foto01.jpg';
 
   constructor(public personaService: PersonaService) {}
 
