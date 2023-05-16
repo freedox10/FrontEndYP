@@ -15,6 +15,7 @@ export class ExperienciaComponent implements OnInit {
 
   isLogged = false;
 
+  /*
   in(){
     this.isLogged = true;
   }
@@ -22,6 +23,7 @@ export class ExperienciaComponent implements OnInit {
   out(){
     this.isLogged = false;
   }
+  */
 
   ngOnInit(): void {
     this.cargarExperiencia();
