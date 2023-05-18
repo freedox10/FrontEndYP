@@ -30,7 +30,8 @@ export class NavBarComponent implements OnInit{
   onLogOut(){
     this.tokenService.logOut();
     this.isLogged = false;
-    this.router.navigate(['/']);
+    //this.router.navigate(['/']);
+    window.location.reload()
   }
 
   /*
