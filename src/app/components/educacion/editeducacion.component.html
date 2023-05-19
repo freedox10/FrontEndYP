@@ -3,8 +3,8 @@
         <div>
             <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
                 <div class="form-group">
-                    <h2>Nueva Institucíon</h2>
-                    <label for="nombreE">Nombre de la Institucíon</label>
+                    <h2>Editar Educación</h2>
+                    <label for="nombreE">Institucíon</label>
                     <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="educacion.nombreE" required>
                 </div>
                 <div class="form-group">
@@ -12,7 +12,7 @@
                     <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="educacion.descripcionE" required>
                 </div>
                 <button class="btn btn-outline-primary">
-                    Editar
+                    Actualizar
                 </button>
             </form>
         </div>

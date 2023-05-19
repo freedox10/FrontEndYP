@@ -10,9 +10,9 @@ import { NuevoUsuario } from '../models/nuevo-usuario';
 })
 export class AuthService {
 
-  //URL = 'https://backendaaf.onrender.com/auth/';
+  URL = 'https://backendaaf.onrender.com/auth/';
 
-  URL = 'http://localhost:8080/auth/';
+  //URL = 'http://localhost:8080/auth/';
 
 
   constructor(private httpClient: HttpClient) { }
