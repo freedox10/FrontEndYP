@@ -8,9 +8,9 @@ import { Educacion } from '../models/educacion';
 })
 export class EducacionService {
 
-  URL = 'https://backendaaf.onrender.com/educ/';
+  //URL = 'https://backendaaf.onrender.com/educ/';
 
-  //URL = 'http://localhost:8080/educ/';
+  URL = 'http://localhost:8080/educ/';
 
 
   constructor(private httpClient : HttpClient) { }

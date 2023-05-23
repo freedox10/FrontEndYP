@@ -10,6 +10,7 @@ import { NeweducacionComponent } from './components/educacion/neweducacion.compo
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 import { NewskillComponent } from './components/skill/newskill.component';
 import { EditskillComponent } from './components/skill/editskill.component';
+import { EditaboutComponent } from './components/about/editabout.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path: 'nuevaedu', component: NeweducacionComponent},
   {path: 'editedu/:id', component: EditeducacionComponent},
   {path: 'nuevaskill', component: NewskillComponent},
-  {path: 'editskill/:id', component: EditskillComponent}
+  {path: 'editskill/:id', component: EditskillComponent},
+  {path: 'editacercade/:id', component: EditaboutComponent}
 ];
 
 export const routing = RouterModule.forRoot(routes);
